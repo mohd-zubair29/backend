@@ -38,3 +38,14 @@ const videoSchema=new Schema({
 
 videoSchema.plugin("mongooseAggregatePaginate")
          export const Video= mongoose.model("Video", videoSchema);
+
+
+
+         
+
+	
+
+
+	
+// CLOUDINARY_URL=cloudinary://697957849113686:NRrRPXpERwgmxo5Nn9xTHmAL5m4@mohammeddzubair
+

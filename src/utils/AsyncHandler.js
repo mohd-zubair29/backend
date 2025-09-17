@@ -1,4 +1,4 @@
-const AsyncHandler=(RequestHandler)=>async (req, res, error)=>{
+const asyncHandler=(RequestHandler)=>async(req, res, error)=>{
   try {
     await RequestHandler(req, res, error)
     
@@ -11,4 +11,4 @@ const AsyncHandler=(RequestHandler)=>async (req, res, error)=>{
 }
 
 
-export {AsyncHandler}
+export {asyncHandler}
